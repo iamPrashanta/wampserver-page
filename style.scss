@@ -1,0 +1,180 @@
+$color-yellow: #F9BC03;
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#header-inner{
+    background-image: url(https://www.wampserver.com/wp-content/themes/wampserver/img/fond_download.png);
+    height: 117px;
+    padding: 0 30px;
+    overflow: hidden;
+    #header-group{
+        display: flex;
+        max-width: 1000px;
+        margin: auto;
+        #logo{
+            margin: 20px 0 0 0;
+        }
+        #language{
+            position: absolute;
+            right: 0;
+            margin: 10px 30px 0 0;
+            a{
+                text-decoration: none;
+                color: $color-yellow;
+                padding-right: 10px;
+            }
+        }
+        #navigation{
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+            #nav{
+                display: flex;
+                flex-direction: row;
+                li{
+                    padding: 0 15px;
+                    list-style: none;
+                    .current{
+
+                        .begin,.download,.formation{
+                            display: flex;
+                            color: $color-yellow;
+                            .left{
+                                background: url(https://www.wampserver.com/wp-content/themes/wampserver/img/sprite_onglet.png) 0 -1px no-repeat;
+                                width: 8px;
+                            }
+                            .middle{
+                                padding: 5px;
+                                background: url(https://www.wampserver.com/wp-content/themes/wampserver/img/sprite_onglet.png) 0 -114px;
+                                color: #212121;
+                                .tab_arrow {
+                                    background: url(https://www.wampserver.com/wp-content/themes/wampserver/img/tab_arrow.png) 0 0 repeat-x;
+                                    display: block;
+                                    width: 15px;
+                                    height: 15px;
+                                    margin: 6px auto 0 auto;
+
+                                }
+                            }
+                            .right{
+                                background: url(https://www.wampserver.com/wp-content/themes/wampserver/img/sprite_onglet.png) 0 -57px no-repeat;
+                                width: 10px;
+                            }
+                        }
+                    }
+                    h2{
+                        .begin,.download,.formation{
+                            color: white;
+                            text-decoration: none;
+
+                            .middle{
+                                .tab_arrow {
+                                    display: none;
+                                }
+                            }
+
+                            :hover{
+                                color: $color-yellow;
+                            }
+                        }
+                    }
+                }
+            }
+            #extra{
+                padding: 15px 15px;
+                .contact{
+                    text-decoration: none;
+                    color: white;
+                    :hover{
+                        color: $color-yellow;
+                    }
+                }
+                .login_p{
+                    text-decoration: none;
+                    color: $color-yellow;
+                    :hover{
+                        color: white;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+//     border: 0;
+//     font-family: inherit;
+//     font-size: 100%;
+//     font-style: inherit;
+//     font-weight: inherit;
+//     margin: 0;
+//     outline: 0;
+//     padding: 0;
+//     vertical-align: baseline;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

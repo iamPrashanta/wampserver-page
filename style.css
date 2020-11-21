@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#header-inner {
+  background-image: url(https://www.wampserver.com/wp-content/themes/wampserver/img/fond_download.png);
+  height: 117px;
+  padding: 0 30px;
+  overflow: hidden;
+}
+
+#header-inner #header-group {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#header-inner #header-group #logo {
+  margin: 20px 0 0 0;
+}
+
+#header-inner #header-group #language {
+  position: absolute;
+  right: 0;
+  margin: 10px 30px 0 0;
+}
+
+#header-inner #header-group #language a {
+  text-decoration: none;
+  color: #F9BC03;
+  padding-right: 10px;
+}
+
+#header-inner #header-group #navigation {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+#header-inner #header-group #navigation #nav {
+  display: flex;
+  flex-direction: row;
+}
+
+#header-inner #header-group #navigation #nav li {
+  padding: 0 15px;
+  list-style: none;
+}
+
+#header-inner #header-group #navigation #nav li .current .begin, #header-inner #header-group #navigation #nav li .current .download, #header-inner #header-group #navigation #nav li .current .formation {
+  display: flex;
+  color: #F9BC03;
+}
+
+#header-inner #header-group #navigation #nav li .current .begin .left, #header-inner #header-group #navigation #nav li .current .download .left, #header-inner #header-group #navigation #nav li .current .formation .left {
+  background: url(https://www.wampserver.com/wp-content/themes/wampserver/img/sprite_onglet.png) 0 -1px no-repeat;
+  width: 8px;
+}
+
+#header-inner #header-group #navigation #nav li .current .begin .middle, #header-inner #header-group #navigation #nav li .current .download .middle, #header-inner #header-group #navigation #nav li .current .formation .middle {
+  padding: 5px;
+  background: url(https://www.wampserver.com/wp-content/themes/wampserver/img/sprite_onglet.png) 0 -114px;
+  color: #212121;
+}
+
+#header-inner #header-group #navigation #nav li .current .begin .middle .tab_arrow, #header-inner #header-group #navigation #nav li .current .download .middle .tab_arrow, #header-inner #header-group #navigation #nav li .current .formation .middle .tab_arrow {
+  background: url(https://www.wampserver.com/wp-content/themes/wampserver/img/tab_arrow.png) 0 0 repeat-x;
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin: 6px auto 0 auto;
+}
+
+#header-inner #header-group #navigation #nav li .current .begin .right, #header-inner #header-group #navigation #nav li .current .download .right, #header-inner #header-group #navigation #nav li .current .formation .right {
+  background: url(https://www.wampserver.com/wp-content/themes/wampserver/img/sprite_onglet.png) 0 -57px no-repeat;
+  width: 10px;
+}
+
+#header-inner #header-group #navigation #nav li h2 .begin, #header-inner #header-group #navigation #nav li h2 .download, #header-inner #header-group #navigation #nav li h2 .formation {
+  color: white;
+  text-decoration: none;
+}
+
+#header-inner #header-group #navigation #nav li h2 .begin .middle .tab_arrow, #header-inner #header-group #navigation #nav li h2 .download .middle .tab_arrow, #header-inner #header-group #navigation #nav li h2 .formation .middle .tab_arrow {
+  display: none;
+}
+
+#header-inner #header-group #navigation #nav li h2 .begin :hover, #header-inner #header-group #navigation #nav li h2 .download :hover, #header-inner #header-group #navigation #nav li h2 .formation :hover {
+  color: #F9BC03;
+}
+
+#header-inner #header-group #navigation #extra {
+  padding: 15px 15px;
+}
+
+#header-inner #header-group #navigation #extra .contact {
+  text-decoration: none;
+  color: white;
+}
+
+#header-inner #header-group #navigation #extra .contact :hover {
+  color: #F9BC03;
+}
+
+#header-inner #header-group #navigation #extra .login_p {
+  text-decoration: none;
+  color: #F9BC03;
+}
+
+#header-inner #header-group #navigation #extra .login_p :hover {
+  color: white;
+}
